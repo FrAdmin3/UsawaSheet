@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,pyodbc,https://github.com/kivymd/kivyMD/archive/master.zip,pillow
+requirements = python3, kivy==2.3.0, kivymd, pillow, asynckivy, materialyoucolor, docutils,Kivy-Garden,pygments,pypiwin32, numpy,pyodbc,matplotlib,Datetime,six,httpcore, anyio,distro,httpx,pydantic,sniffio, aiohttp==3.8.4, aiosignal, frozenlist, async-timeout, attrs, multidict, yarl, idna, typing-extensions, charset_normalizer, urllib3, tqdm, requests,h11
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
